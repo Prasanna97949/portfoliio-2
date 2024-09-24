@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+}
+.home-container {
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+  }
+  
+  .intro-section {
+    margin-bottom: 30px;
+  }
+  
+  .avatar-section {
+    margin-bottom: 30px;
+  }
+  
+  .avatar {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .links-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .links-section ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .links-section ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .links-section ul li a:hover {
+    text-decoration: underline;
+  }
